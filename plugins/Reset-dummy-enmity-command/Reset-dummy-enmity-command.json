@@ -1,9 +1,11 @@
 {
-  "Name": "Reset enmity command",
   "Author": "akira0245",
-  "Punchline": "Add a reset striking dummy enmity command.",
+  "Name": "Reset enmity command",
+  "InternalName": "Reset enmity command",
+  "AssemblyVersion": "1.9.2.1",
   "Description": "Add a reset striking dummy enmity command.",
-  "RepoUrl": "https://github.com/akira0245/Reset-dummy-enmity-command",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/FairyScript/Reset-dummy-enmity-command",
   "Tags": [
     "akira",
     "striking",
@@ -11,5 +13,7 @@
     "train"
   ],
   "DalamudApiLevel": 6,
-  "IconUrl": "https://i.loli.net/2021/09/25/OA6vDxaSTmfWyU3.png"
+  "LoadPriority": 0,
+  "IconUrl": "https://i.loli.net/2021/09/09/L1fkrwElUKYMtN3.png",
+  "Punchline": "Add a reset striking dummy enmity command.",
 }
