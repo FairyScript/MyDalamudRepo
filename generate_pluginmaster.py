@@ -29,8 +29,8 @@ TRIMMED_KEYS = [
     'RepoUrl',
     'ApplicableVersion',
     'Tags',
-    'CategoryTags',
     'DalamudApiLevel',
+    'LoadPriority',
     'IconUrl',
     'ImageUrls',
 ]
@@ -60,7 +60,7 @@ def extract_manifests():
         plugin_name = dirpath.split('/')[-1]
         latest_zip = f'{dirpath}/latest.zip'
         with ZipFile(latest_zip) as z:
-            manifest = json.loads(z.read(f'{plugin_name}.json').decode('utf-8-sig'))
+            manifest = json.loads(z.read(f'{plugin_name}.json').decode('utf-8'))
             manifests.append(manifest)
 
     return manifests
@@ -96,8 +96,8 @@ def last_updated():
         latest = f'plugins/{plugin["InternalName"]}/latest.zip'
         modified = int(getmtime(latest))
 
-        if 'LastUpdated' not in plugin or modified != int(plugin['LastUpdated']):
-            plugin['LastUpdated'] = str(modified)
+        if 'LastUpdate' not in plugin or modified != int(plugin['LastUpdate']):
+            plugin['LastUpdate'] = str(modified)
 
     with open('pluginmaster.json', 'w') as f:
         json.dump(master, f, indent=4)
