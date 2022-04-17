@@ -1,10 +1,9 @@
 name: Regenerate PluginMaster
-on: 
+on:
   workflow_dispatch:
   push:
     branches:
-    - master
-    - api4
+      - master
 concurrency: regenerate
 jobs:
   generate:
@@ -13,7 +12,7 @@ jobs:
     steps:
       - uses: actions/setup-python@v2
         with:
-            python-version: '3.8'
+          python-version: '3.8'
       - uses: actions/checkout@v2
       - name: Generate PluginMaster
         run: python generate_pluginmaster.py
