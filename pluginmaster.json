@@ -14,6 +14,7 @@
             "instrument"
         ],
         "DalamudApiLevel": 4,
+        "LoadPriority": 0,
         "IconUrl": "https://i.loli.net/2021/09/09/L1fkrwElUKYMtN3.png",
         "DownloadLinkInstall": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/MidiBard/latest.zip",
         "IsHide": false,
@@ -21,6 +22,33 @@
         "DownloadLinkTesting": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/MidiBard/latest.zip",
         "DownloadLinkUpdate": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/MidiBard/latest.zip",
         "DownloadCount": 0,
-        "LastUpdated": "1636455067"
+        "LastUpdate": "1650166079"
+    },
+    {
+        "Author": "akira0245",
+        "Name": "Reset enmity command",
+        "Punchline": "Add a reset striking dummy enmity command.",
+        "Description": "Add a reset striking dummy enmity command.",
+        "InternalName": "ResetEnmityCommand",
+        "AssemblyVersion": "1.9.2.1",
+        "RepoUrl": "https://github.com/FairyScript/Reset-dummy-enmity-command",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "akira",
+            "striking",
+            "battle",
+            "train"
+        ],
+        "DalamudApiLevel": 6,
+        "LoadPriority": 0,
+        "IconUrl": "https://i.loli.net/2021/09/09/L1fkrwElUKYMtN3.png",
+        "ImageUrls": [],
+        "DownloadLinkInstall": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/ResetEnmityCommand/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/ResetEnmityCommand/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/ResetEnmityCommand/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1650166079"
     }
 ]
