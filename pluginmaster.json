@@ -22,7 +22,7 @@
         "DownloadLinkTesting": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/MidiBard/latest.zip",
         "DownloadLinkUpdate": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/MidiBard/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1650166079"
+        "LastUpdate": "1650166557"
     },
     {
         "Author": "akira0245",
@@ -41,7 +41,7 @@
         ],
         "DalamudApiLevel": 6,
         "LoadPriority": 0,
-        "IconUrl": "https://i.loli.net/2021/09/09/L1fkrwElUKYMtN3.png",
+        "IconUrl": "https://i.loli.net/2021/09/25/OA6vDxaSTmfWyU3.png",
         "ImageUrls": [],
         "DownloadLinkInstall": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/ResetEnmityCommand/latest.zip",
         "IsHide": false,
@@ -49,6 +49,6 @@
         "DownloadLinkTesting": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/ResetEnmityCommand/latest.zip",
         "DownloadLinkUpdate": "https://github.com/FairyScript/MyDalamudRepo/raw/master/plugins/ResetEnmityCommand/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1650166079"
+        "LastUpdate": "1650166557"
     }
 ]
