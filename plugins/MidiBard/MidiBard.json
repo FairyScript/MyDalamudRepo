@@ -12,6 +12,7 @@
     "instrument"
   ],
   "DalamudApiLevel": 4,
+  "IsHide":true,
   "LoadPriority": 0,
   "IconUrl": "https://i.loli.net/2021/09/09/L1fkrwElUKYMtN3.png",
   "Punchline": "Bard performance using midi files or keyboard."
