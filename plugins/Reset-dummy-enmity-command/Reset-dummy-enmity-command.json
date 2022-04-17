@@ -1,7 +1,7 @@
 {
   "Author": "akira0245",
   "Name": "Reset enmity command",
-  "InternalName": "Reset enmity command",
+  "InternalName": "ResetEnmityCommand",
   "AssemblyVersion": "1.9.2.1",
   "Description": "Add a reset striking dummy enmity command.",
   "ApplicableVersion": "any",
